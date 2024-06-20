@@ -2,8 +2,8 @@
 
 Showing something in console
 
-'''
+```python
 print()
-'''
+```
 
 Importing 
