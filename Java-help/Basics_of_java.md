@@ -1,4 +1,4 @@
-#Begining stuff 
+# Begining stuff 
 
 ```java
 public class Main {}
@@ -14,7 +14,7 @@ main = name of the function, inside the paranthese, we add the parameters for th
 every java program should have at least one function (main)
 
 
-#All THESE ARE PRIMITIVE TYPES
+# All THESE ARE PRIMITIVE TYPES
 ```java
 byte age = 30;
 long viewsCount = 3_123_456_789L;
@@ -27,7 +27,7 @@ float price =10.99F;
 use another suffix bc java thinks its automatically a double
 
 
-#Strings:
+# Strings:
 ```java        
 char letter = 'a';
 ```
@@ -38,7 +38,7 @@ boolean isEligible = false;
 ```
 
 
-#Reference Types
+# Reference Types
 this part of the code prints out the current time and date
 ```java
 Date now = new Date();
@@ -52,7 +52,7 @@ System.out.println(now);
 
 u can write sout and press  tab to get: System.out.println();
 
-#POINTS?:
+# POINTS?:
 
 This makes 2 points, kinda work like lists in python (when one of the 2 changes, the other one changes too
 
