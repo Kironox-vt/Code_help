@@ -82,3 +82,5 @@ message.trim
 ```
 removes the whitespace
 none of these change the originale string, they just make a change to a new string
+
+test
