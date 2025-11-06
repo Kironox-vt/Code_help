@@ -66,3 +66,34 @@ for event in pygame.event.get():
         pygame.quit()
         running = False
 ```
+## Capping the Frame rate
+
+To cap the frame rate, we should write this:
+```python
+#before the while loop
+clock = pygame.time.clock
+while True:
+    #after while loop
+    clock.tick(60) #You can put any vaulue
+```
+this caps the frame rate at 60 fps
+in total we should have this:
+
+```python
+import pygame
+pygame.init()
+
+screen = pygame.display.set_mode((width, height))
+
+running = True
+
+clock = pygame.time.clock
+while running:
+    for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        pygame.quit()
+        running = False
+    pygame.display.update()
+    
+    clock.tick(60)
+```
