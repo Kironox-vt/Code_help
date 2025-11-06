@@ -77,7 +77,8 @@ while True:
     clock.tick(60) #You can put any vaulue
 ```
 this caps the frame rate at 60 fps
-in total we should have this:
+
+In total we should have this:
 
 ```python
 import pygame
