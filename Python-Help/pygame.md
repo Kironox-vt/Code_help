@@ -91,9 +91,9 @@ running = True
 clock = pygame.time.clock
 while running:
     for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-        pygame.quit()
-        running = False
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            running = False
     pygame.display.update()
     
     clock.tick(60)
